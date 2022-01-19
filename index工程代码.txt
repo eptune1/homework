@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .box{
+            text-align: center;
+        }
+        h1{
+            margin: 50px;
+        }
+        img{
+            width: 100%;
+        }
+        p{
+            width: 60%;
+            margin:  0 auto;
+            font-size: 24px;
+            text-indent: 50px;
+            text-align: left;
+        }
+        a{
+            display: block;
+            color: #000;
+            font-size: 24px;
+            text-decoration: none;
+        }
+        ul li{
+            width: 100%;
+            height: 100px;
+            line-height: 100px;
+            background: rgb(235,228,219);
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>课程关系图</h1>
+        <img src="img/1.png" alt="">
+    </div>
+    <div class="box">
+        <h1>课程参考资料</h1>
+        <ul>
+            <li><a href="https://www.runoob.com/cprogramming/c-tutorial.html">C语言</a></li>
+            <li><a href="https://www.runoob.com/html/html-tutorial.html">html</a></li>
+            <li><a href="https://www.runoob.com/css/css-tutorial.html">css</a></li>
+            <li><a href="https://www.runoob.com/js/js-tutorial.html">js</a></li>
+            <li><a href="https://www.runoob.com/sql/sql-tutorial.html">SQL</a></li>
+            <li><a href="http://www.16xx8.com/photoshop/xinshoujiaocheng/">ps</a></li>
+            <li><a href="https://www.runoob.com/java/java-tutorial.html">JAVA</a></li>
+            <li><a href="https://www.runoob.com/java/java-tutorial.html">Python</a></li>
+            <li><a href="https://www.runoob.com/linux/linux-tutorial.html">Linux</a></li>
+        </ul>
+    </div>
+    <div class="box">
+        <h1>专业认知</h1>
+        <p>计算机专业是指计算机硬件与软件相结合、面向系统、更偏向应用的宽口径专业。[1]通过基础教学与专业训练，培养基础知识扎实、知识面宽、工程实践能力强，具有开拓创新意识，在计算机科学与技术领域从事科学研究、教育、开发和应用的高级人才。
+            计算机学科的特色主要体现在：理论性强，实践性强，发展迅速按一级学科培养基础扎实的宽口径人才，体现在重视数学、逻辑、数据结构、算法、电子设计、计算机体系结构和系统软件等方面的理论基础和专业技术基础，前两年半注重自然科学基础课程和专业基础课程，拓宽面向。后一年半主要是专业课程的设置，增加可选性、多样性、灵活性和方向性，突出学科方向特色，体现最新技术发展动向。</p>
+    </div>
+    <div class="box">
+        <h1>学业规划</h1>
+        <img src="img/2.png" alt="">
+    </div>
+</body>
+</html>
